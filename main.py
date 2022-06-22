@@ -4,7 +4,6 @@
 # Importing necessary module
 import random
 from art import logo
-import os
 
 # Creating necessary variables
 wins = 0
@@ -16,8 +15,6 @@ paper = 0
 scissor = 0
 
 playing = True
-
-clear = lambda: os.system('cls')
 
 # Run the game
 print(logo)
